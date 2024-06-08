@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* background-color: #000dffaa; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1em;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+/* Header */
+.header {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* Game Results */
+.game_results {
+  background-color: orange;
+}
+
+/* Roster */
+.roster {
+  background-color: yellow;
+}
+
+/* Injury Reports */
+.injury_reports {
+  background-color: green;
+}
+
+/* Team and Opponent Stats */
+.team_and_opponent_stats {
+  background-color: blue;
+}
+

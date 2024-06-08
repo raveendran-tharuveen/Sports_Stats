@@ -1,0 +1,35 @@
+.season_data {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Use 'separate' to enable 'border-spacing' */
+    border-spacing: 10px 15px; /* Horizontal and vertical spacing */
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+td, th {
+    border-right: 1px solid #ddd; /* Thin border between columns */
+}
+
+tr {
+    border-bottom: 1px solid #ddd; /* Thin border between rows */
+}
+
+tr:last-child {
+    border-bottom: none; /* Remove the border on the last row */
+}
+
+td:last-child, th:last-child {
+    border-right: none; /* Remove the border on the last column */
+}
